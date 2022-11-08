@@ -9,9 +9,12 @@ Renames config-CODE-RED.txt to config.txt, thus replacing your original.
 This will allow you to potentially recover your KeyCroc should you forget your arming pass or some other problem occurs.
 The new config.txt file has debug on, SSH and no arming pass - thus hopefully allowing you access again.
 
-Update the config.CODE-RED.txt file with reliable wifi settings  
-Place the config.CODE-RED.txt file in the same folder as config.txt
-Place the CODE-RED.txt payload file into the payloads folder
+1) Update the config.CODE-RED.txt file with reliable wifi settings
+
+2) Place the config.CODE-RED.txt file in the same folder as config.txt
+
+3) Place the CODE-RED.txt payload file into the payloads folder
 
 Pray you never need them :)
+
 But if you do, __code-red in notepad and you can see the updates as they occur.
