@@ -1,0 +1,34 @@
+# Title:         Code Red
+# Description:   Replaces current config.txt with a clean basic install incase something 
+#                goes wrong, forget arming pass etc.
+# Author:        Snoopy34d
+# Version:       1.0
+# Category:      Key Croc
+#
+#
+MATCH __code-red
+QUACK LOCK
+QUACK ENTER
+QUACK ENTER
+QUACK STRING "Preparing to back up current config.txt file to config.old"
+QUACK ENTER
+QUACK DELAY 500
+QUACK STRING $(cp /root/udisk/config.txt /root/udisk/config.old)
+QUACK ENTER
+QUACK ENTER
+QUACK STRING "Old version - backed up to config.old"
+QUACK ENTER
+QUACK ENTER
+QUACK STRING $(rm config.txt)
+QUACK STRING "Copying Code Red version to Config.txt"
+QUACK ENTER
+QUACK DELAY 500
+QUACK STRING $(cp /root/udisk/config-CODE-RED.txt /root/udisk/config.txt)
+QUACK ENTER
+QUACK ENTER
+QUACK STRING "Files copied"
+QUACK ENTER
+QUACK DELAY 500
+QUACK UNLOCK
+QUACK ENTER
+
